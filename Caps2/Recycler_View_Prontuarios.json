@@ -1,0 +1,94 @@
+{
+    "name":"cara",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author":"Henrique Brito",
+    "platforms":[
+       "Niotron"
+    ],
+    "keys":[
+ 
+    ],
+    "components":[{
+        "id": "mainCard",
+        "type": "com.google.appinventor.components.runtime.NiotronCardView",
+        "properties":{
+            "WidthPercent": 95,
+            "MarginBottom": 15,
+            "PaddingLeft": 0,
+            "PaddingTop": 0,
+            "PaddingRight": 0,
+            "PaddingBottom": 15,
+            "Radius": 12,
+            "Elevation": 5
+            },
+
+        "components":[
+            {
+                "id": "horizontalCima",
+                "type": "com.google.appinventor.components.runtime.HorizontalArrangement",
+                "properties":{
+                    "Width": -2,
+                    "AlignVertical": 2,
+                    "BackgroundColor": -16736074
+                },
+                "components": [{
+                    "id": "imgTipoConsulta",
+                    "type": "com.google.appinventor.components.runtime.Image",
+                    "properties":{
+                        "Picture": "iconAdd.png",
+                        "Height": 30,
+                        "Width": 30,
+                        "MarginLeft": 10,
+                        "MarginTop": 10,
+                        "MarginRight": 10,
+                        "MarginBottom": 10
+                    }
+                },{
+                    "id": "verticalTitulos",
+                    "type": "com.google.appinventor.components.runtime.VerticalArrangement",
+                    "properties":{
+                        "Height": -1
+                    },
+                    "components":[
+                    {
+                        "id": "labelTipoConsulta",
+                        "type": "com.google.appinventor.components.runtime.Label",
+                        "properties":{
+                            "TextColor": -1
+                        }
+                    },{
+                        "id": "labelData",
+                        "type": "com.google.appinventor.components.runtime.Label",
+                        "properties":{
+                            "TextColor": -1
+                        }
+                    }]
+                }]
+            },{
+                "id": "labelTitulo",
+                "type":"com.google.appinventor.components.runtime.Label",
+                "properties": {
+                    "MarginLeft": 10,
+                    "FontBold": true,
+                    "FontSize": 18,
+                    "MarginTop": 5,
+                    "MarginBottom": 5
+                }
+            },{
+                "id": "labelSub1",
+                "type":"com.google.appinventor.components.runtime.Label",
+                "properties": {
+                    "MarginLeft": 10
+                }
+            },{
+                "id": "labelSub2",
+                "type":"com.google.appinventor.components.runtime.Label",
+                "properties": {
+                    "MarginLeft": 10
+                }
+            }
+        ]
+    }]
+}
+
